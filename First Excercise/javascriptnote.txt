@@ -1,0 +1,7 @@
+var  can be declared globally and locally inside the function.they can be declared
+and redeclared and updated.
+javascript is interpretation language.
+
+let is blocked scoped.
+
+a block lives in curly braces.
