@@ -5,3 +5,18 @@ javascript is interpretation language.
 let is blocked scoped.
 
 a block lives in curly braces.
+
+prompt by default takes input in the form of string.
+but in order to make it integer or numeric we will use + before prompt
+
++prompt
+
+document.write
+
+javascript runs from left to write.
+
+//Comparision Operator
+
+=== is called equality operator.It check the type as well as the content.
+ like if "1"==1 then its false.
+else if 1===1 then its true because the type as well as the content are  both same.
