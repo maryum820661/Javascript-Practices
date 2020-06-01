@@ -184,3 +184,56 @@ console.log(students);
 var copyStudents=students.slice(1,3);
 //here 3 is exclusive. It will slice the elements from the first index till 3rd index.
 console.log(copyStudents);
+
+//For Loop
+
+var a;
+for(a=1;a<=10;a++)
+{
+
+   document.write(a); 
+}
+for(b=1;b<10;b++)
+{
+
+    document.write(b+"<br>");
+}
+for(i=1;i<=10;i++)
+{
+document.write("2"+"x"+i+"="+2*i+"<br>");
+}
+
+var names=["erum","sehar","sabahat"]
+for(i=0;i<names.length;i++){
+
+    document.write(names[i]+"<br>");
+}
+
+for(i=0;i<5;i++)
+{
+for(j=0;j<3;j++)
+{
+    document.write("naughtygirl"+"<br>")
+}
+
+}
+//changing case
+var word=prompt("Enter the word");
+var check="";
+for(i=word.length-1;i>=0;i--)
+{
+ check+=word[i];
+}
+if(check===word){
+    console.log("Palindrome")
+}
+else{
+
+    console.log("Not a Palindrome")
+}
+var name='Aqsa';
+check=name.toLowerCase();
+console.log(check);
+var name="sara";
+check=name.toUpperCase();
+console.log(check);
